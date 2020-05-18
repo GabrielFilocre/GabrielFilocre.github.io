@@ -8,8 +8,8 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    left: 450px;
-    top: 100px;
+    left: 40px;
+    top: -70px;
 }
 nav#menu li{
     display: inline-block;
@@ -24,38 +24,25 @@ nav#menu li:hover{
 }
 header#cabecalho {
     border-bottom: 1px rgb(106, 213, 231) solid;
-    height: 221px;
+    height: 80px;
     background-color: rgb(106, 213, 231);
     margin-top: -27px;
-    width: 1500px;
+    width: 100%;
     margin-left: -7px;
-    
-}
-header#cabecalho h1{
-    font-family: 'squada one', sans-serif;
-    font-size: 30pt;
-    margin-bottom: 0px;
-    text-shadow: 1px 1px 2px white;
-    
-
-}
-header#cabecalho h2{
-    font-size: 17px;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Jost', sans-serif;
-  
+    position: fixed;
+    margin-top: -95px;
     
 }
 section#corpo{
-    width: 1250px;
+    width: 95%;
+    height: 500px;
     background-color: white;
-    margin: 5px auto 0px auto;
+    margin: 80px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    height: 1000px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    display: block;
+   
     
 }
 body{
@@ -66,6 +53,29 @@ a{
     color: black;
 }
 img#logo{
-    width: 80px;
-    margin-top:70px;
+    width: 65px;
+    margin-top:15px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: black;
+}
+figure.cafe img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 1px 1px 4px black;
+    box-sizing: border-box;
+    color: white;
+    border: 5px solid white;
+    margin-left: 380px;
+    margin-top: 50px;
+}   
+
+footer#rodape{
+    clear: both;
+    
+}
+footer#rodape p{
+    text-align: center;
 }
