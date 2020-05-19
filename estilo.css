@@ -8,25 +8,26 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    left: 40px;
+    left: 450px;
     top: -70px;
 }
 nav#menu li{
     display: inline-block;
-    background-color: rgb(106, 213, 231);
+    background-color: rgb(193, 230, 236);
     padding: 10px;
     margin: 2px;
-    transition: background-color 0.5s;
+
     color: black;
 }
 nav#menu li:hover{
-    background-color: rgb(60, 168, 187);
+    background-color: rgb(148, 165, 172);
+    border-radius: 50px;
 }
 header#cabecalho {
-    border-bottom: 1px rgb(106, 213, 231) solid;
+    border-bottom: 1px rgb(193, 230, 236) solid;
     height: 80px;
-    background-color: rgb(106, 213, 231);
-    margin-top: -27px;
+    background-color: rgb(193, 230, 236);
+    margin-top: -95px;
     width: 100%;
     margin-left: -7px;
     position: fixed;
@@ -42,7 +43,7 @@ section#corpo{
     display: block;
 }
 body{
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(197, 195, 195);
 }
 a{
     text-decoration: none;
@@ -57,6 +58,7 @@ p{
     font-size: 12pt;
     color: black;
     text-indent: 10px;
+    text-align: justify;
 }
 figure.cafe img{
     width: 400px;
