@@ -27,22 +27,24 @@ header#cabecalho {
     border-bottom: 1px rgb(193, 230, 236) solid;
     height: 80px;
     background-color: rgb(193, 230, 236);
-    margin-top: -95px;
+    margin-top: -81px;
     width: 100%;
     margin-left: -7px;
     position: fixed;
     
 }
 section#corpo{
-    width: 95%;
+    width: 100%;
     height: 500px;
-    background-color: white;
-    margin: 80px auto 0px auto;
+    background-color: rgb(217, 236, 240);
+    margin-top: 70px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
 }
+
+
 body{
     background-color: rgb(197, 195, 195);
 }
@@ -55,8 +57,8 @@ img#logo{
     margin-top:15px;
 }
 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
     color: black;
     text-indent: 10px;
     text-align: justify;
@@ -68,7 +70,7 @@ figure.cafe img{
     box-sizing: border-box;
     color: white;
     border: 5px solid white;
-    margin-left: 380px;
+    margin-left: 420px;
     margin-top: 50px;
 }   
 
