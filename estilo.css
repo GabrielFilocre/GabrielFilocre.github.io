@@ -1,23 +1,24 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 nav#menu {
     display: block;
 }
 nav#menu ul{
     list-style: none;
-    text-transform: uppercase;
+    
     position: relative;
-    left: 450px;
-    top: -70px;
+    left: 500px;
+    top: 0px;
 }
 nav#menu li{
     display: inline-block;
-    background-color: rgb(193, 230, 236);
+    font-size: 15pt;
     padding: 10px;
     margin: 2px;
-
-    color: black;
+    color: white;
 }
 nav#menu li:hover{
     background-color: rgb(148, 165, 172);
@@ -26,12 +27,12 @@ nav#menu li:hover{
 header#cabecalho {
     border-bottom: 1px rgb(193, 230, 236) solid;
     height: 80px;
-    background-color: rgb(193, 230, 236);
-    margin-top: -81px;
+    background-color: rgba(0, 0, 0,0.9);
+    margin-top: -100px;
     width: 100%;
     margin-left: -7px;
     position: fixed;
-    
+    display: block;
 }
 section#corpo{
     width: 100%;
@@ -43,18 +44,12 @@ section#corpo{
     font-family: Arial, Helvetica, sans-serif;
     display: block;
 }
-
-
 body{
-    background-color: rgb(197, 195, 195);
+    background-color: white;
 }
 a{
     text-decoration: none;
-    color: black;
-}
-img#logo{
-    width: 65px;
-    margin-top:15px;
+    color: white;
 }
 p{
     font-family: Arial, sans-serif;
@@ -63,6 +58,45 @@ p{
     text-indent: 10px;
     text-align: justify;
 }
+main#sobre{
+    text-align: justify;
+    margin-top: 100px;
+   
+}
+main#sobre h1{
+    margin-left: 0px;
+    font-size: 30pt;
+    font-family: 'Dancing Script', sans-serif;
+    border-bottom: 1px solid black;
+    padding-left: 200px;
+}
+
+main#sobre h2{
+    font-size: 14pt;
+    font-family: 'Lobster', sans-serif;
+    margin-left: 50px;
+    
+}
+main#sobre h3{
+    font-size: 19pt;
+    margin-left: 20px;
+}
+main#sobre p{
+    margin-right: 640px;
+    padding-left: 10px;
+    color: rgb(105, 104, 104);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main#sobre ul{
+    list-style: none;
+}
+main#sobre li{
+    font-size: 15pt;
+    margin-left: -25px;
+    color: rgb(85, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 640px;
+}
 figure.cafe img{
     width: 400px;
     height: 300px;
@@ -70,14 +104,25 @@ figure.cafe img{
     box-sizing: border-box;
     color: white;
     border: 5px solid white;
-    margin-left: 420px;
-    margin-top: 50px;
+    margin-left: 790px;
+    margin-top: 1000px;
+  
+    
 }   
+
 
 footer#rodape{
     clear: both;
+    margin-top: 100px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 10px;
+    margin-bottom: -100px;
+    width: 1360px;
+    margin-left: -20px;
     
 }
 footer#rodape p{
     text-align: center;
+    padding-top: 22px;
 }
