@@ -30,7 +30,7 @@ header#cabecalho {
     background-color: rgba(0, 0, 0,0.9);
     margin-top: -100px;
     width: 100%;
-    margin-left: -7px;
+    margin-left: -9px;
     position: fixed;
     display: block;
 }
@@ -43,9 +43,6 @@ section#corpo{
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
-}
-body{
-    background-color: white;
 }
 a{
     text-decoration: none;
@@ -100,17 +97,24 @@ main#sobre li{
 figure.cafe img{
     width: 400px;
     height: 300px;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 1px 1px 5px black;
     box-sizing: border-box;
     color: white;
-    border: 5px solid white;
+    border: 2px solid white;
     margin-left: 790px;
-    margin-top: 1000px;
-  
-    
-}   
-
-
+    margin-top: -600px;
+    float: left;
+}
+.legenda{
+    width: 400px;
+    box-sizing: border-box;
+    color: gray;
+    border: 1px solid gray;
+    margin-left: 790px;
+    margin-top: -300px;
+    float: left;
+    padding: 10px;
+}
 footer#rodape{
     clear: both;
     margin-top: 100px;
@@ -124,5 +128,6 @@ footer#rodape{
 }
 footer#rodape p{
     text-align: center;
-    padding-top: 22px;
+    padding-top: 25px;
+    color: white;
 }
