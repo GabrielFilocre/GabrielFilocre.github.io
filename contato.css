@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 nav#menuu {
     display: block;
 }
@@ -6,8 +7,8 @@ nav#menuu ul{
     list-style: none;
     
     position: relative;
-    left: 500px;
-    top: 10px;
+    left: 495.3px;
+    top: 11px;
 }
 nav#menuu li{
     display: inline-block;
@@ -15,6 +16,8 @@ nav#menuu li{
     padding: 10px;
     margin: 2px;
     color: white;
+    
+    
 }
 nav#menuu li:hover{
     background-color: rgb(148, 165, 172);
@@ -22,17 +25,20 @@ nav#menuu li:hover{
 }
 header#cabecalhoo {
     border-bottom: 1px rgb(193, 230, 236) solid;
-    height: 80px;
+    height: 81px;
     background-color: rgba(0, 0, 0,0.9);
     margin-top: -90px;
     width: 100%;
-    margin-left: -7px;
+    margin-left: 0px;
     position: fixed;
     display: block;
 }
 form#formulario{
     margin-top: 100px;
     padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    height: 300px;
 }
 p#entre{
     margin-left: 0px;
@@ -42,8 +48,12 @@ p#entre{
     padding-left: 200px;
     margin-top: 90px;
 }
-a{
+a:hover{
     text-decoration: none;
+    color: white;
+}
+a{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: white;
 }
 button#botao{
@@ -51,5 +61,23 @@ button#botao{
     border: 1px solid black;
 }
 button#botao:hover{
-    background-coolr: rgba(0, 0, 0,0.9);
+    background-color: rgba(0, 0, 0,0.9);
+}
+footer.rodapee{
+    clear: both;
+    margin-top: 100px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 0px;
+    margin-bottom: -110px;
+    width: 100%;
+   position: absolute;
+   
+    
+    
+}
+footer.rodapee p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
 }
