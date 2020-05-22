@@ -7,7 +7,7 @@ nav#menuu ul{
     list-style: none;
     
     position: relative;
-    left: 495.3px;
+    left: 495.7px;
     top: 11px;
 }
 nav#menuu li{
@@ -36,11 +36,11 @@ header#cabecalhoo {
 form#formulario{
     margin-top: 100px;
     padding: 10px;
-    padding-bottom: 0;
-    margin-bottom: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     height: 300px;
 }
-p#entre{
+.entre{
     margin-left: 0px;
     font-size: 30pt;
     font-family: 'Dancing Script', sans-serif;
@@ -59,25 +59,76 @@ a{
 button#botao{
     background-color: black;
     border: 1px solid black;
+    margin-left: 15px;
 }
 button#botao:hover{
     background-color: rgba(0, 0, 0,0.9);
 }
 footer.rodapee{
     clear: both;
-    margin-top: 100px;
+    margin-top: 70px;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.9);
     padding-bottom: 0px;
-    margin-bottom: -110px;
     width: 100%;
    position: absolute;
-   
-    
-    
 }
 footer.rodapee p{
     text-align: center;
     padding-top: 20px;
     color: white;
+}
+@media(max-width: 700px){
+    nav#menuu ul{
+        left: 15px;
+    }
+    .sobre p{
+        margin-right: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .entre {
+        padding-left: 0px;
+    }
+    .sobre li{
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    footer.rodapee{
+       margin-top: 150px;
+   }
+}
+@media(max-width: 320px){
+    nav#menuu ul{
+        left: -8px;
+    }
+    .sobre p{
+        margin-right: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .sobre li{
+        margin-right: 0px;
+        padding-left: 0px;
+    }   
+}
+@media(min-width:1500px){
+    footer.rodapee{
+        margin-top: 490px;
+    }
+    footer.rodapee p{
+        font-size: 17pt;
+    }
+    nav#menuu ul{
+        left: 750px;
+    }
+    nav#menuu li{
+        font-size: 20pt;
+    }
+    div.form-row{
+        font-size: 20pt;
+    }
+    button#botao{
+        font-size: 20pt;
+    }
 }

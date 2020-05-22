@@ -8,7 +8,6 @@ nav#menu {
 }
 nav#menu ul{
     list-style: none;
-    
     position: relative;
     left: 497px;
     top: 0px;
@@ -47,45 +46,43 @@ p{
     text-indent: 10px;
     text-align: justify;
 }
-main#sobre{
+.sobre{
     text-align: justify;
     margin-top: 100px;
-    padding-bottom: 0;
-   
 }
-main#sobre h1{
+.sobre h1{
     margin-left: 0px;
     font-size: 30pt;
     font-family: 'Dancing Script', sans-serif;
     border-bottom: 1px solid black;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 
-main#sobre h2{
+.sobre h2{
     font-size: 14pt;
     font-family: 'Lobster', sans-serif;
     margin-left: 50px;
-    
 }
-main#sobre h3{
+.sobre h3{
     font-size: 19pt;
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-main#sobre p{
+.sobre p{
     margin-right: 640px;
     padding-left: 10px;
     color: rgb(105, 104, 104);
     font-family: Arial, Helvetica, sans-serif;
 }
-main#sobre ul{
+.sobre ul{
     list-style: none;
 }
-main#sobre li{
+.sobre li{
     font-size: 15pt;
     margin-left: -25px;
     color: rgb(85, 85, 85);
     margin-right: 640px;
+    padding: 10px;
 }
 figure.cafe img{
     width: 400px;
@@ -95,7 +92,7 @@ figure.cafe img{
     color: white;
     border: 2px solid white;
     margin-left: 790px;
-    margin-top: -600px;
+    margin-top: -800px;
     float: left;
 }
 .legenda{
@@ -104,24 +101,109 @@ figure.cafe img{
     color: gray;
     border: 1px solid gray;
     margin-left: 790px;
-    margin-top: -300px;
+    margin-top: -500px;
     float: left;
     padding: 10px;
 }
-footer.rodapee{
+footer.rodape-{
     clear: both;
-    margin-top: 50px;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.9);
-    width: 101.22%;
+    width: 100%;
     margin-left: -8px;
-    
-    
+    position: absolute;
 }
-footer.rodapee p{
+footer.rodape- p{
     text-align: center;
-    padding: auto;
     color: white;
     font-size: 11.6pt;
+    padding-top: 10px;
+}
 
+@media(max-width: 700px){
+    nav#menu ul{
+        left: 15px;
+    }
+    .sobre p{
+        margin-right: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .sobre h1{
+        padding-left: 0px;
+    }
+    .sobre h2{
+        margin-left: 0px;
+    }
+    .sobre li{
+        margin-right: 0px;
+        padding-left: 0px;
+    }   
+    .legenda{
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+    }
+    figure.cafe img{
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+        height: 200px;
+    }
+   #rodaope{
+       margin-top: 400px;
+   }
+}
+@media(max-width: 320px){
+    nav#menu ul{
+        left: -8px;
+    }
+    .sobre p{
+        margin-right: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .sobre li{
+        margin-right: 0px;
+        padding-left: 0px;
+    }   
+}
+@media(min-width: 1500px){
+    nav#menu ul{
+        left: 750px;
+    }
+    nav#menu li{
+        font-size: 20pt;
+    }
+    .sobre{
+        width: 80%;
+    }
+    figure.cafe img{
+        margin-left: 1100px;
+        margin-top: -950px;
+        height: 400px;
+        width: 500px;
+    }
+    .legenda{
+        margin-left: 1100px;
+        margin-top: -550px;
+        height: 59px;
+        width: 500px;
+        font-size: 15pt;
+    }
+    p{
+        font-size: 20pt;
+    }
+    .sobre li{
+        font-size: 22pt;
+    }
+    .sobre h2{
+        font-size: 25pt;
+    }
+    p.entre{
+        font-size: 30pt;
+    }
+    footer#rodaope p{
+        font-size: 17pt;
+    }
 }

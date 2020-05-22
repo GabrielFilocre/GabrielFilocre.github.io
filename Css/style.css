@@ -1,0 +1,236 @@
+@charset "UTF-8";
+nav#menu- {
+    display: block;
+}
+nav#menu- ul{
+    list-style: none;
+    position: relative;
+    left: 497px;
+    top: 0px;
+}
+nav#menu- li{
+    display: inline-block;
+    font-size: 15pt;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+}
+nav#menu- li:hover{
+    background-color: rgb(148, 165, 172);
+    border-radius: 50px;
+}
+header#cabecalho- {
+    border-bottom: 1px rgb(193, 230, 236) solid;
+    height: 80px;
+    background-color: rgba(0, 0, 0,0.9);
+    margin-top: -90px;
+    width: 100%;
+    margin-left: -9px;
+    position: fixed;
+    display: block;
+}
+.sobre h1{
+    margin-left: 0px;
+    font-size: 30pt;
+    font-family: 'Dancing Script', sans-serif;
+    border-bottom: 1px solid black;
+    padding-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure#sprite img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    box-sizing: border-box;
+    color: white;
+    border: 2px solid white;
+    margin-left: 790px;
+    margin-top: -1950px;
+    float: left;
+}
+#sprite-legenda{
+    width: 400px;
+    box-sizing: border-box;
+    color: gray;
+    border: 1px solid gray;
+    margin-left: 790px;
+    margin-top: -1650px;
+    float: left;
+    padding: 10px;
+}
+figure#espada img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    box-sizing: border-box;
+    color: white;
+    border: 2px solid white;
+    margin-left: 790px;
+    margin-top: -1400px;
+    float: left;
+}
+#espada-legenda{
+    width: 400px;
+    box-sizing: border-box;
+    color: gray;
+    border: 1px solid gray;
+    margin-left: 790px;
+    margin-top: -1100px;
+    float: left;
+    padding: 10px;
+}
+figure#knight img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    box-sizing: border-box;
+    color: white;
+    border: 2px solid white;
+    margin-left: 790px;
+    margin-top: -850px;
+    float: left;
+}
+#knight-legenda{
+    width: 400px;
+    box-sizing: border-box;
+    color: gray;
+    border: 1px solid gray;
+    margin-left: 790px;
+    margin-top: -550px;
+    float: left;
+    padding: 10px;
+}
+@media(max-width: 768px){
+    nav#menu- ul{
+        left: 15px;
+    }
+    .sobre p{
+        margin-right: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .sobre li{
+        margin-right: 0px;
+        padding-left: 0px;
+    }   
+    #sprite-legenda{
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+    }
+    figure#sprite img{
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+        height: 200px;
+    }
+    #knight-legenda{
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+    }
+    figure#knight img{
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+        height: 200px;
+    }
+    #espada-legenda{
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+    }
+    figure#espada img{
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+        height: 200px;
+    }
+   .rodape-{
+       margin-top: 750px;
+   }
+}
+@media(max-width: 320px){
+    nav#menu- ul{
+        left: -8px;
+    }
+    .sobre p{
+        margin-right: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .sobre li{
+        margin-right: 0px;
+        padding-left: 0px;
+    }   
+    
+}
+@media(min-width: 1500px){
+    nav#menu- ul{
+        left: 750px;
+    }
+    nav#menu- li{
+        font-size: 20pt;
+    }
+    .sobre{
+        width: 80%;
+    }
+    figure#sprite img{
+        margin-left: 1100px;
+        margin-top: -2900px;
+        height: 400px;
+        width: 500px;
+    }
+    #sprite-legenda{
+        margin-left: 1100px;
+        margin-top: -2500px;
+        height: 50px;
+        width: 500px;
+        font-size: 15pt;
+    }
+    figure#espada img{
+        margin-left: 1100px;
+        margin-top: -2200px;
+        height: 400px;
+        width: 500px;
+    }
+    #espada-legenda{
+        margin-left: 1100px;
+        margin-top: -1800px;
+        height: 50px;
+        width: 500px;
+        font-size: 15pt;
+    }
+    figure#knight img{
+        margin-left: 1100px;
+        margin-top: -1500px;
+        height: 400px;
+        width: 500px;
+    }
+    #knight-legenda{
+        margin-left: 1100px;
+        margin-top: -1100px;
+        height: 50px;
+        width: 500px;
+        font-size: 17pt;
+    }
+    p{
+        font-size: 20pt;
+    }
+    .sobre li{
+        font-size: 22pt;
+    }
+    .sobre h2{
+        font-size: 25pt;
+    }
+    p.entre{
+        font-size: 30pt;
+    }
+    footer.rodape- p{
+        font-size: 17pt;
+    }
+}
